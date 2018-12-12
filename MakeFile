@@ -1,9 +1,5 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -O3
 
-make : clean code
-
-clean:
-	rm code -f
-code: bookstore.cpp
+code: Bookstore.cpp
 	$(CXX) -o $@ $^ $(CXXFLAGS)
