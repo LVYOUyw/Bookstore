@@ -317,7 +317,7 @@ class data
                         ioA.read(reinterpret_cast<char *> (tmp[i]), 40);
 		            for (int i = 0; i < 4; i++)
                         printf("%s\t", tmp[i]);
-                    printf("%.2lf\t%d本¾\n",v,num);
+                    printf("%.2lf\t%d本\n",v,num);
                     getnext(posA);
                 }
                 ioA.close();
@@ -377,7 +377,7 @@ class data
                     ioA.read(reinterpret_cast<char *> (&num), 4);
                     for (int i = 0; i < 4; i++)
                         printf("%s\t", tmp[i]);
-                    printf("%.2lf\t%d本¾\n",v,num);
+                    printf("%.2lf\t%d本\n",v,num);
                 }
                 getnext(posA);
             }
