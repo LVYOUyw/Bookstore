@@ -4,7 +4,7 @@
 #include<string>
 using namespace std;
 #define next nex
-const int N = 100;
+const int N = 400;
 
 class data
 {
